@@ -48,6 +48,7 @@ const BookListPage = () => {
                             <h2 className="font-semibold text-xl mb-2">{book.title}</h2>
                             <p className="text-gray-700 mb-2">by {book.author}</p>
                             <p className="text-green-600">${book.price}</p>
+                            <p className="text-gray-500">ID: {book._id}</p>
                         </div>
                     ))}
                 </div>
